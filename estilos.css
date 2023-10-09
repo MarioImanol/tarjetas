@@ -1,0 +1,37 @@
+.tarjeta{
+    border: 1px solid red;
+    width: 300px;
+    border-radius: 6px;
+    box-shadow: purple 5px 5px 5px; 
+}
+.tarjeta img{
+    width: 200px;
+    height: 250px;
+}
+.titulo-tarjeta{
+    text-align: center;
+    font-weight: 800;
+    padding-bottom: 20px; /* deja un espacio de separacion */
+    border-bottom: 1px solid red;
+    background-color: blueviolet;
+    color: white;
+    font-size: 20px;
+}
+.tarjeta div{ /* Este pading se aplica a todo elemento que este adentro de la clase tarjeta*/
+    padding: 15px; /* Deja un margen*/
+}
+.descripcion{
+    text-align: justify;
+}
+.precio{
+    text-align: center;
+}
+.tarjeta button{
+    padding: 10px;
+    background-color: rgb(180, 46, 233);
+    color: aliceblue;
+    font-size: 25px;
+    border: 1px solid #000;
+    
+}
+
