@@ -1,37 +1,41 @@
-.tarjeta{
-    border: 1px solid red;
-    width: 300px;
-    border-radius: 6px;
-    box-shadow: purple 5px 5px 5px; 
-}
-.tarjeta img{
-    width: 200px;
-    height: 250px;
-}
-.titulo-tarjeta{
-    text-align: center;
-    font-weight: 800;
-    padding-bottom: 20px; /* deja un espacio de separacion */
-    border-bottom: 1px solid red;
-    background-color: blueviolet;
-    color: white;
-    font-size: 20px;
-}
-.tarjeta div{ /* Este pading se aplica a todo elemento que este adentro de la clase tarjeta*/
-    padding: 15px; /* Deja un margen*/
-}
-.descripcion{
-    text-align: justify;
-}
-.precio{
-    text-align: center;
-}
-.tarjeta button{
+#encabezado{
+    background-color: #F54958;
     padding: 10px;
-    background-color: rgb(180, 46, 233);
-    color: aliceblue;
-    font-size: 25px;
-    border: 1px solid #000;
-    
+    height: 200px;
 }
-
+#divIzq{
+    background-color: #EBB720;
+    width: 40%;
+    float: left;
+    height: 200px;
+    text-align: center;
+}
+#divDer{
+    background-color: #4E5ADE;
+    width: 60%;
+    float: right;
+    height: 200px;
+}
+.Principal{
+    background-color: beige;
+    display: flex;
+    flex-direction: row; /* para invertir las columnas column-reverse*/ /*row para ponerlo en filas*/ /* row-reverse para invertirlo*/
+    flex-wrap: wrap; /* nowrap se mantiene las filas y con el wrap se adaptan*/
+    justify-content: center /* center lo alinia al centro*/ /*space-between se distribuyen*/ /*space-around*/
+}
+.div2{
+    background-color: rgb(215, 213, 201);
+    height: 200px;
+}
+.div3{
+    background-color: rgb(243, 163, 113);
+    height: 200px;
+}
+.derecha{
+    flex: 1;
+    margin-right: 260px;
+}
+.izquierda{
+    flex: 1;
+    margin-left: 500px;
+}
